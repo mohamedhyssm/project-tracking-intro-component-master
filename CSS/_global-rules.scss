@@ -1,0 +1,61 @@
+$grayishBlue: hsl(231, 7%, 65%);
+$darkGrayishBlue: hsl(230, 11%, 40%);
+$LightGrayishBlue: hsl(207, 33%, 95%);
+$veryDarkBlue: hsl(230, 29%, 20%);
+$mainTrans: 0.3s;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: $mainTrans;
+}
+
+ul {
+  list-style: none;
+}
+
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
